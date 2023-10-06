@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+#bgcolorsopraimg{
+    background-color: rgba(33, 28, 31, 0.5);
+    border-radius: 5%;
+    margin: auto;   
+    padding: 5% 10%;
+}
+
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+/* ho scelto questo font poiché era il più simile a l'immagine che ho trovato (non ho fatto una grossa ricerca volevo solo dimostrare che avevo capito come mettere un font diverso) */
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+/*Lo aggiungo dato che guardando su ispeziona mi faceva vedere che erano presenti immagini ripetute del bg */
+    width: 1000px;
+    margin: auto;
+    padding: 3%;
+}
+header, nav{
+    text-align: center;
+}
+nav{
+    background-color: #28fc03;
+    padding: 10px;
+}
+header img{
+    width: 30%;
+}
+header h2{
+    color: #28fc03;
+}
+main{
+    color: white;
+}
+.ricarica1{
+    background-color: black;
+    width: 200px;
+    height: 1em;
+    border-radius: 5px 5px 5px 5px;
+}
+.ricarica2{
+    background-color: red;
+    width: 400px;
+    height: 1em;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.ricarica3{
+    background-color: purple;
+    width: 100px;
+    height: 1em;
+    border-radius: 5px 5px 5px 5px;
+}
+/* non so se c'era ma non sono riuscito a pensare un modo di aggregare le classi .ricarica */
